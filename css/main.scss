@@ -683,11 +683,11 @@ text-align: left;
 	width: 100%;
 	max-width: 1000px;
 
-	height: 500px;
+
 	margin: auto;
 	margin-top: 100px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-bottom: 100px;
+
 	.gallery-img{
 		width: 25%;
 		padding-top: 25%;
@@ -1008,7 +1008,10 @@ transform: rotate(45deg);
 
 //mobile devices
 
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-device-width: 600px) {
+	li{
+		list-style: none;
+	}
 	.announcement-bar{
 		display: none;
 	}
@@ -1105,9 +1108,10 @@ margin-top: -21px;
 		margin-bottom: -20px !important;
 	}
 	.image-gallery-container{
-		height: 115%;
+
 		padding: 0px;
 		    margin-top: 67px;
+				margin-bottom: 0px;
 		.gallery-img{
 			width: 50%;
 			padding-top: 50%;
@@ -1138,6 +1142,10 @@ margin-top: -21px;
 		}
 	}
 
+	.about-cont{
+		margin-top: 138px;
+	}
+
 .hero-content-container{
 	padding: 0px;
 	height: auto;
@@ -1148,6 +1156,51 @@ margin-top: -21px;
 
 .footer-section{
 	width: 77%;
+}
+
+.services-header{
+	margin-top: 87px;
+}
+
+.service-row{
+	display: block;
+	border-bottom: solid #a1a1a1;
+	border-width: 1px;
+	margin-top: 12px;
+	padding-bottom: 32px;
+	.service-logo-cont{
+		width: auto;
+		img{
+			margin-left: 0px;
+		}
+	}
+	.service-main-content{
+		width: auto;
+		padding: 0px;
+	}
+	.service-price{
+		width: 100%;
+/* width: 22%; */
+/* text-align: center; */
+display: inline-flex;
+justify-content: center;
+align-items: center;
+padding-top: 3px;
+	}
+}
+
+.faq-header{
+	margin-top: 187px;
+}
+.faq-expand-sect{
+	padding-right: 22px;
+}
+
+.faqs-Container{
+	margin-top: -30px;
+}
+.service-row .service-main-content .service-main-content-container{
+	padding-bottom: 0px;
 }
 
 }
