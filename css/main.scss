@@ -1036,6 +1036,28 @@ transform: rotate(45deg);
 //mobile devices
 
 @media only screen and (max-width: 730px)  {
+
+
+	.messenger-cont{
+		background-image: url(../images/messenger.png);
+background-size: contain;
+background-repeat: no-repeat;
+width: 56px;
+height: 84px;
+position: fixed;
+bottom: 11px;
+right: 32px;
+/* background-color: grey; */
+z-index: 999;
+	}
+
+.mes-btn{
+	height: 50px;
+	width: 50px;
+	z-index: 999999999999999
+}
+
+
 	li{
 		list-style: none;
 	}
