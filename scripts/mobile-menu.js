@@ -6,6 +6,16 @@ var mobCont = document.getElementById("mob-menu-cont");
 var mobOver = document.getElementById("mob-over");
 var mobButton = document.getElementById("hamb");
 var contactUs = document.getElementById("contact-us-mob");
+var contactUsPara = document.getElementById("contact-us-mob-para");
+
+mobBtn.addEventListener("click", function(){
+  mobCont.classList.toggle("mob-menu-active");
+  mobOver.classList.toggle("mob-over-active");
+  let mobBtn = undefined;
+
+
+    });
+
 
 
 contactUs.addEventListener("click", function(){
@@ -21,12 +31,6 @@ mobBtn.addEventListener("click", function(){
     });
 
 
-
-
-mobBtn.addEventListener("click", function(){
-  mobCont.classList.toggle("mob-menu-active");
-  mobOver.classList.toggle("mob-over-active");
-  let mobBtn = undefined;
-
-
-    });
+    contactUsPara.addEventListener("click", function(){
+      window.scrollTo(0,document.body.scrollHeight);
+        });
