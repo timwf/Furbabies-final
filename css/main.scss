@@ -188,6 +188,9 @@ body, html{
 	height: 3px;
 }
 
+#mob-btn{
+	height: 50px;
+}
 .hamburger-menu {
 	position: relative;
 	transform: translateY(15px);
@@ -341,6 +344,12 @@ text-transform: uppercase;
 			h2{
 				line-height: 1
 			}
+}
+
+.hero-btns{
+	.primary-btn p{
+		font-size: 14px;
+	}
 }
 
 .primary-btn{
@@ -542,6 +551,7 @@ font-size: 14px;
 .red-arrow-png{
 	position: absolute;
 	left: 167px;
+	top: 0px;
 	margin-top: 4px;
 
 
@@ -1006,9 +1016,26 @@ transform: rotate(45deg);
 	padding:20px;
 }
 
+@media only screen and (max-width: 934px) and (min-width: 600px){
+
+	.ethos-container .ethos-content-container p {
+    line-height: 1.4;
+    margin-bottom: 20px;
+	}
+.services-container{
+	justify-content: center;
+}
+.ethos-content-container {
+	width: 720px !important;
+}
+.ethos-container .ethos-content-container .p-italic{
+	display: none;
+}
+}
+
 //mobile devices
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 730px)  {
 	li{
 		list-style: none;
 	}
