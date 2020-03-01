@@ -7,6 +7,9 @@ var mobOver = document.getElementById("mob-over");
 var mobButton = document.getElementById("hamb");
 var contactUs = document.getElementById("contact-us-mob");
 var contactUsPara = document.getElementById("contact-us-mob-para");
+var contactUsMobButton = document.getElementById("contact-us-mob-button");
+
+
 
 mobBtn.addEventListener("click", function(){
   mobCont.classList.toggle("mob-menu-active");
@@ -34,3 +37,8 @@ mobBtn.addEventListener("click", function(){
     contactUsPara.addEventListener("click", function(){
       window.scrollTo(0,document.body.scrollHeight);
         });
+
+
+contactUsMobButton.addEventListener("click", function(){
+  window.scrollTo(0,document.body.scrollHeight);
+    });
