@@ -8,7 +8,7 @@ for (var i = 0; i < x.length; i++) {
 
   let counter = i
   x[i].addEventListener("mouseover", function(){
-    console.log(x[1]);
+
     y[counter].childNodes[1].classList.add("hid-price-cont-active");
     y[counter].childNodes[3].classList.add("hidd-short-des-active");
     y[counter].childNodes[5].classList.add("arrow-active");

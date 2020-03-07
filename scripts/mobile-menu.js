@@ -34,11 +34,15 @@ mobBtn.addEventListener("click", function(){
     });
 
 
-    contactUsPara.addEventListener("click", function(){
-      window.scrollTo(0,document.body.scrollHeight);
-        });
 
 
-contactUsMobButton.addEventListener("click", function(){
-  window.scrollTo(0,document.body.scrollHeight);
-    });
+
+        if (window.innerWidth <= 800) {
+          contactUsMobButton.addEventListener("click", function(){
+            window.scrollTo(0,document.body.scrollHeight);
+              });
+
+              contactUsPara.addEventListener("click", function(){
+                window.scrollTo(0,document.body.scrollHeight);
+                  });
+        }
